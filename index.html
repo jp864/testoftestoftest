@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Security-Policy" content="">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CR7 Memecoin - The SIUUU Revolution. Join the meme movement and own a piece of history.">
+  <meta name="keywords" content="CR7, Memecoin, Crypto, Cristiano Ronaldo, $URCR7">
+  <title>CR7 Memecoin - The SIUUU Revolution</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="header-content">
+      <img src="assets/cr7-cartoon.jpeg" alt="CR7 Cartoon" class="cartoon-image">
+      <h1>CR7 Memecoin</h1>
+      <p>The URCR7 Revolution is here! Join the meme movement and own a piece of history.</p>
+      <button id="cta-button" class="cta-button">Buy $URCR7 Now</button>
+    </div>
+    <audio id="siuuu-sound" src="assets/siuuu.mp3"></audio>
+  </header>
+
+ 
+  <div id="loading-spinner">
+    <img src="assets/ball.png" alt="Loading..." class="spinner">
+  </div>
+
+  <!-- How to Buy Section -->
+   <!-- How to Buy Section -->
+   <section id="how-to-buy">
+    <h2>How to Buy $URCR7</h2>
+    <ol>
+      <li>Install the Phantom or Solflare extension in your browser and set up the wallet.</li>
+      <li>Connect your wallet to the Jupiter website at https://jup.ag/onboard.</li>
+      <li>Buy Solana (SOL) and transfer it to your connected wallet.</li>
+      <li>Use the swap feature to convert SOL to $URCR7 tokens.</li>
+      <li>Confirm the transaction and check your wallet for the $URCR7 tokens.</li>
+    </ol>
+    <button id="buy-now-button" class="cta-button">Buy Now</button>
+  </section>
+
+<!-- Tokenomics Section -->
+<section id="tokenomics">
+  <h2>Tokenomics</h2>
+  <p>Our tokenomics are currently under development. Stay tuned for exciting updates!</p>
+  <div class="progress-bar-container">
+    <div class="progress-bar"></div>
+  </div>
+</section>
+
+
+<!-- Roadmap Loading Section -->
+<section id="roadmap-loading">
+    <h2>Roadmap</h2>
+    <p>Our roadmap is currently under development. Stay tuned for exciting updates!</p>
+    <div class="loading-animation">
+      <div class="spinner"></div>
+    </div>
+  </section>
+
+
+<!-- Mission Section -->
+<section id="mission">
+  <h2>Mission</h2>
+  <p>
+    At CR7 Memecoin, we’re more than just a cryptocurrency—we’re a <strong>global family</strong> united by passion, dedication, and the relentless pursuit of greatness. Inspired by Cristiano Ronaldo’s legendary journey, we celebrate the power of hard work, resilience, and the belief that <strong>anything is possible</strong>.
+  </p>
+  <p>
+    Whether you’re a dreamer, a hustler, or a believer, this is your chance to be part of something bigger. Together, we’re building a community that thrives on <strong>optimism</strong>, <strong>support</strong>, and the shared goal of turning dreams into reality.
+  </p>
+  <p>
+    Join us, and let’s make history—one SIUUU at a time. 🚀
+  </p>
+  <!-- Optional: Add a CR7 Quote -->
+  <blockquote>
+    "Talent without hard work is nothing." – Cristiano Ronaldo
+  </blockquote>
+  <!-- Optional: Add a CR7 Celebration Image -->
+  <div class="cr7-celebration-container">
+    <img src="assets/cr7-celebration.png" alt="Cristiano Ronaldo Celebration" class="cr7-celebration">
+    <button id="join-movement-button" class="cta-button">Join the Movement</button>
+  </div>
+</section>
+
+<!-- Global Community Section -->
+<section id="global-community">
+  <h2>Global Community</h2>
+  <div class="country-grid">
+    <div class="country-card" data-country="Portugal" data-bg="assets/backgrounds/portugal-bg.jpg">
+      <img src="assets/flags/portugal.png" alt="Portugal Flag">
+      <p>Portugal</p>
+    </div>
+    <div class="country-card" data-country="Spain" data-bg="assets/backgrounds/spain-bg.png">
+      <img src="assets/flags/spain.png" alt="Spain Flag">
+      <p>Spain</p>
+    </div>
+    <div class="country-card" data-country="Brazil" data-bg="assets/backgrounds/brazil-bg.png">
+      <img src="assets/flags/brazil.png" alt="Brazil Flag">
+      <p>Brazil</p>
+    </div>
+    <div class="country-card" data-country="USA" data-bg="assets/backgrounds/usa-bg.png">
+      <img src="assets/flags/usa.png" alt="USA Flag">
+      <p>USA</p>
+    </div>
+    <!-- Add more countries as needed -->
+  </div>
+    <!-- Add the note here -->
+    <p class="flag-note">
+      <em>More flags coming soon! Tag us on X with the flag from your country that you want to see added!</em>
+    </p>
+  <div id="country-list">
+    <h3>Countries Represented</h3>
+    <ul id="country-names">
+      <!-- Countries will be dynamically added here -->
+    </ul>
+  </div>
+  <div id="community-engagement">
+    <h3>Are you a $URCR7 holder?</h3>
+    <p>Take a screenshot of this website, share it on X, and tag us to be featured in our global community!</p>
+    <button id="share-on-x" class="cta-button">Share on X</button>
+  </div>
+</section>
+<!-- Country-Specific Page -->
+<section id="country-page" class="hidden">
+  <div id="country-content">
+    <h2 id="country-name">Country Name</h2>
+    <p>Welcome to the $URCR7 community in <span id="country-name-span">Country Name</span>!</p>
+    <button id="buy-siuuu" class="cta-button">Buy $URCR7 Now</button>
+  </div>
+</section>
+
+
+
+      
+
+<!-- FAQ Section -->
+<section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <div class="faq-question">
+        <h3>Is this an official Cristiano Ronaldo product?</h3>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="faq-answer">
+        <p>No, CR7 Memecoin is a fan-made project celebrating Cristiano Ronaldo’s legacy. It is not affiliated with or endorsed by Cristiano Ronaldo.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <h3>What is the official contract address and symbol for CR7 Memecoin?</h3>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="faq-answer">
+        <p>The official contract address is <strong>[TO BE REALEASED...]</strong>, and the symbol is <strong>$URCR7</strong>.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <h3>How can I get CR7 Memecoins?</h3>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="faq-answer">
+        <p>You can buy $URCR7 on Phantom/Solfare using Solana (SOL). Follow the steps in the "How to Buy" section above.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <h3>What is a memecoin?</h3>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="faq-answer">
+        <p>A memecoin is a cryptocurrency inspired by internet memes or pop culture. CR7 Memecoin is dedicated to Cristiano Ronaldo and his iconic legacy.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <h3>Why do I need to perform KYC/AML when I buy on exchanges?</h3>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="faq-answer">
+        <p>KYC (Know Your Customer) and AML (Anti-Money Laundering) are standard procedures to ensure compliance with regulations and prevent fraud.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <h3>Which blockchain network is CR7 Memecoin on?</h3>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="faq-answer">
+        <p>CR7 Memecoin is built on the Solana (SOL).</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <h3>What else should I know?</h3>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="faq-answer">
+        <p>CR7 Memecoin is a fun, community-driven project. Always do your own research (DYOR) before investing in any cryptocurrency.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CR7 Achievements Section -->
+<section id="cr7-achievements">
+  <h2>CR7's Legendary Journey</h2>
+  <div class="achievements-grid">
+    <!-- Achievement Card 1 -->
+    <div class="achievement-card">
+      <div class="card-front">
+        <h3>5x Ballon d'Or Winner</h3>
+        <p>Recognized as the best player in the world five times.</p>
+      </div>
+      <div class="card-back">
+        <p>Years: 2008, 2013, 2014, 2016, 2017</p>
+        <img src="assets/ballon-dor.png" alt="Ballon d'Or">
+      </div>
+    </div>
+
+    <!-- Achievement Card 2 -->
+    <div class="achievement-card">
+      <div class="card-front">
+        <h3>800+ Career Goals</h3>
+        <p>A testament to hard work, dedication, and excellence.</p>
+      </div>
+      <div class="card-back">
+        <p>Clubs: Sporting, Manchester United, Real Madrid, Juventus, Al Nassr</p>
+        <img src="assets/goals.png" alt="Career Goals">
+      </div>
+    </div>
+
+    <!-- Achievement Card 3 -->
+    <div class="achievement-card">
+      <div class="card-front">
+        <h3>5x UEFA Champions League Winner</h3>
+        <p>Dominating Europe's elite competition.</p>
+      </div>
+      <div class="card-back">
+        <p>Years: 2008, 2014, 2016, 2017, 2018</p>
+        <img src="assets/ucl-trophy.png" alt="UCL Trophy">
+      </div>
+    </div>
+
+    <!-- Add more achievements as needed -->
+  </div>
+</section>
+
+
+
+<!-- Token Holders Section -->
+<section id="holder-section">
+  <h2>Token Holders</h2>
+  <p>Total Holders: <span id="holder-count">Loading...</span></p>
+</section>
+
+
+
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-links">
+      <a href="https://x.com/cr7coin_onsol" target="_blank">Twitter</a>
+      <a href="https://t.me/urcr7coin" target="_blank">Telegram</a>
+    </div>
+    <p class="footer-disclaimer">
+      &copy; 2025 CR7 Memecoin. All Rights Reserved.<br>
+      $URCR7 is a memecoin with no intrinsic value. Please do your own research.
+    </p>
+    <!-- Easter Egg Button -->
+    <button id="easter-egg-button" class="easter-egg-button">?</button>
+    <!-- Easter Egg Popup -->
+   <!-- Easter Egg Popup -->
+<div id="easter-egg-popup" class="easter-egg-popup">
+  <p id="trivia-text">Cristiano Ronaldo has won 5 Ballon d'Or awards!</p>
+</div>
+</footer>
+   
+  <script src="script.js"></script>
+</body>
+</html>
